@@ -6,20 +6,27 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Inter', sans-serif;
-} 
+}
 
 a {
     text-decoration: none;
     color: #000;
 }
 
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
 .navbar {
+    position: fixed;
+    width: 97vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #D9D9D9;
-    margin: 15px 10px;
-    padding: 8px 15px;
+    margin-top: 10px;
+    padding: 8px 10px;
     border-radius: 10px;
 }
 
@@ -54,4 +61,8 @@ a {
 .navbar-btn-nutave p {
     color: #fff;
     font-weight: bold;
+}
+
+.navbar-language img {
+    box-shadow: 0px 1px 5px #000;
 }
