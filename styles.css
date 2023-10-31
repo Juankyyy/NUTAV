@@ -13,13 +13,14 @@ a {
     color: #000;
 }
 
+/* ------------------- HEADER ------------------- */
+
 .header-content {
     display: flex;
     justify-content: center;
 }
 
 .navbar {
-    position: fixed;
     width: 97vw;
     display: flex;
     align-items: center;
@@ -65,4 +66,60 @@ a {
 
 .navbar-language img {
     box-shadow: 0px 1px 5px #000;
+}
+
+/* ------------------- Tours ------------------- */
+
+.tours {
+    display: flex;
+    justify-content: center;
+}
+
+.tours-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0094FF;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tours-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.tours-strong {
+    color: #FFFF00;
+}
+
+.tours-imgs {
+    display: flex;
+    gap: 50px;
+}
+
+.tours-img {
+    object-fit: cover;
+    height: 328px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px #000;
+}
+
+.tours-img-text {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about {
+    margin-top: 100px;
+    background-color: #D9D9D9;
+    height: 535px;
 }
