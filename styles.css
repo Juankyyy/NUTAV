@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Quitar estilos por defecto */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+} 
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    margin: 15px 10px;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.navbar-tours-select {
+    height: 30px;
+    width: 170px;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-item img {
+    margin-right: -10px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-btn-nutave {
+    background-color: #0500FF;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.navbar-btn-benutave {
+    background-color: #0094FF;
+}
+
+.navbar-btn-nutave p {
+    color: #fff;
+    font-weight: bold;
+}
