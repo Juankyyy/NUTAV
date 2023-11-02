@@ -127,7 +127,7 @@ a {
     height: 535px;
     margin-top: 100px;
     margin-bottom: 200px;
-    background-image: url(../NUTAV/assets/aboutbg.png);
+    background-image: url(./assets/aboutbg.png);
     color: #fff;
     font-weight: bold;
 }
