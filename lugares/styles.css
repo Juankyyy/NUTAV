@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); /* importamos el tipo de fuente de letra al css */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ------------------- HEADER ------------------- */
+
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.navbar-tours-select {
+    height: 30px;
+    width: 170px;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-btn-nutave {
+    background-color: #0500FF;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.navbar-btn-benutave {
+    background-color: #0094FF;
+}
+
+.navbar-btn-nutave p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-language {
+    margin-right: 10px;
+}
+
+.navbar-language img {
+    border: 1px solid #000;
+}
+
+/* ------------------- ABOUT ------------------- */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px; /*creo espacio entre dos objetos centrados*/
+    margin-top: 20px;
+}
+
+.about-text {
+
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about-text strong {
+    color: #ffff00;
+    -webkit-text-stroke: 2px black;
+}
+
+.about-img {
+    margin-right: 25px;
+}
+
+/* ------------------- PARAMETERS BAR ------------------- */
+
+.parameters-content {
+    display: flex;
+    justify-content: center;
+}
+
+.parameters-bar {
+    background-color: #d9d9d9;
+    width: 95vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 8px 10px; 
+}
+
+.parameters-bar-btn {
+    background-color: #0094FF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.parameters-bar-select {
+    margin-left: 5px;
+    padding: 2px 5px;
+    font-size: 15px;
+    background-color: #0094FF;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s background-color;
+}
+
+.parameters-bar-select:hover {
+    background-color: #0059ff;
+}
+
+/* ------------------- PLACES SECTION ------------------- */
+
+.place-section {
+    margin-top: 50px;
+}
+
+.place-content {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+.place-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 480px;
+}
+
+.place-text-p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.place-img img {
+    border-radius: 22px;
+    box-shadow: 0px 0px 20px #000;
+}
