@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Quitar estilos por defecto */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ------------------- HEADER ------------------- */
+
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.navbar-tours-select {
+    height: 30px;
+    width: 170px;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-btn-nutave {
+    background-color: #0500FF;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.navbar-btn-benutave {
+    background-color: #0094FF;
+}
+
+.navbar-btn-nutave p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-language {
+    margin-right: 10px;
+}
+
+.navbar-language img {
+    border: 1px solid #000;
+}
+
+/*Parrafo pcpal*/
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 535px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.about-logo {
+    margin-right: 50px;
+}
+
+.about-text {
+    font-size: 50px;
+    width: 50vw;
+} /*aqui es lo del borde*/
+
+.p-strong {
+    color: #766A6A;
+}
+
+/*Segunda barra*/
+
+.parameters-twobar{
+    display: flex;
+    justify-content: center;
+}
+
+.twobar {
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.twobar-right {
+    display: flex;
+    align-items: center;
+}
+
+.twobar-item {
+    margin-right: 110px;
+}
+
+.twobar-btn-org {
+    background-color: #0500FF;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+    margin: 10px, 30px, 10px
+}
+
+.twobar-btn-language{
+    background-color: #0094FF;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.twobar-btn-date{
+    background-color: #0094FF;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/*Guia Miguel*/
+.migueltoro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Image-miguel,
+.Information-miguel,
+.video-contact-miguel {
+    width: 30%; 
+}
+
+.tours {
+    display: flex;
+    justify-content: space-between;
+    width: 30%; 
+}
+
+.contact-btn-content{
+    color: #fff;
+    padding:  10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #0094FF;
+}
+
