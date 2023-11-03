@@ -72,77 +72,82 @@ a {
 .about {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 535px;
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
-
-.about-logo {
-    margin-right: 50px;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 20px;
+    background-image: url(../assets/aboutbg2.jpg);
+    color: #fff;
+    font-weight: bold;
 }
 
 .about-text {
-    font-size: 50px;
-    width: 50vw;
-} /*aqui es lo del borde*/
-
-.p-strong {
-    color: #766A6A;
-}
-
-/*Segunda barra*/
-
-.parameters-twobar{
-    display: flex;
-    justify-content: center;
-}
-
-.twobar {
-    width: 95vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #D9D9D9;
-    margin-top: 10px;
-    padding: 8px 10px;
+    font-size: 40px;
+    font-weight: bold;
     border-radius: 10px;
+    background-color: #0000008f;
+    width: 35vw;
+    padding: 5px;
+}
+
+.about-text strong {
+    color: #10b880;
+}
+
+.about-img {
+    margin-right: 25px;
+}
+
+/* ------------------- PARAMETERS BAR ------------------- */
+
+.parameters-content {
+    display: flex;
     justify-content: center;
 }
 
-.twobar-right {
+.parameters-bar {
+    background-color: #d9d9d9;
+    width: 95vw;
+    border-radius: 10px;
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 10px; 
 }
 
-.twobar-item {
-    margin-right: 110px;
+.parameters-bar-btn {
+    background-color: #0094FF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
-.twobar-btn-org {
+.parameters-bar-btn-blue {
     background-color: #0500FF;
-    padding: 10px 15px;
-    border-radius: 20px;
-    color: #fff;
-    margin: 10px, 30px, 10px
 }
 
-.twobar-btn-language{
+.parameters-bar-select {
+    margin-left: 5px;
+    padding: 2px 5px;
+    font-size: 15px;
     background-color: #0094FF;
-    padding: 10px 15px;
-    border-radius: 20px;
     color: #fff;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s background-color;
 }
 
-.twobar-btn-date{
-    background-color: #0094FF;
-    padding: 10px 15px;
-    border-radius: 20px;
-    color: #fff;
+.parameters-bar-select:hover {
+    background-color: #0059ff;
 }
 
-/*Guia Miguel*/
-.migueltoro{
+/*Section with articles and aside*/
+
+.migueltoro {
     display: flex;
     justify-content: space-between;
 }
@@ -150,6 +155,28 @@ a {
 .Image-miguel,
 .Information-miguel,
 .video-contact-miguel {
+    width: 30%; 
+}
+
+.angela{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Image-angela,
+.Information-angela,
+.video-contact-angela {
+    width: 30%; 
+}
+
+.juan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Image-juan,
+.Information-juan,
+.video-contact-juan {
     width: 30%; 
 }
 
@@ -168,3 +195,21 @@ a {
     background-color: #0094FF;
 }
 
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.articles {
+    flex-grow: 1;
+    width: 70%; /* Ancho de los artículos */
+    background-color: #fff;
+    padding: 20px;
+}
+
+.reviews {
+    width: 30%; /* Ancho del aside */
+    background-color: #EFEFEF;
+    padding: 20px;
+}

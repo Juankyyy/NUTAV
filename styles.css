@@ -127,7 +127,7 @@ a {
     height: 535px;
     margin-top: 100px;
     margin-bottom: 200px;
-    background-image: url(./assets/aboutbg.png);
+    background-image: url(./assets/aboutbg2.jpg);
     color: #fff;
     font-weight: bold;
 }
@@ -138,7 +138,10 @@ a {
 
 .about-text {
     font-size: 25px;
+    border-radius: 10px;
+    background-color: #0000008f;
     width: 35vw;
+    padding: 5px;
 }
 
 /* ------------------- Locations ------------------- */

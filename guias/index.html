@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <link rel="shortcut icon" href="../../NUTAV/assets/isotipo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../NUTAV/assets/favicon.png" type="image/x-icon">
     <title>Guías</title>
 </head>
 <body>
@@ -55,100 +55,235 @@
             </div>
         </nav>
     </header>
-   
-    <section class="about" id="about">
-        <div class="about-logo">
-            <img height="440px" src="../assets/mapNutav.png" alt="Mapa Nutav">
+    
+    <section class="about">
+        <div class="about-img">
+            <img src="../assets/mapNutavwhitestroke.png" alt="Nutav Logo" height="440px">
         </div>
+        
         <div class="about-text">
-            <h1>LA OPORTUNIDAD DE CONOCER <strong class="p-strong">COLOMBIA</strong> A TU MANERA</h1>
-        </div>
+            <p>LA OPORTUNIDAD DE CONOCER <strong>COLOMBIA</strong> A TU MANERA</p>
+        </div>       
     </section>
-    <section class="parameters-twobar">
-        <nav class="twobar">
-            <div class="twobar-right">
-                <a href="#">
-                    <div class="twobar-btn-org twobar-item">
-                        <p><strong>Organizar por:</strong></p>
-                    </div>
-                </a>
 
-                <a href="#">
-                    <div class="twobar-btn-language twobar-item">
-                        <p><strong>Idioma</strong></p>
-                    </div>
-                </a>
+    <section class="parameters-content">
+        <nav class="parameters-bar">
+            <div class="parameters-bar-btn parameters-bar-btn-blue">
+                <p>Organizar por:</p>
+            </div>
 
-                <a href="#">
-                    <div class="twobar-btn-date twobar-item">
-                        <p><strong>Fechas propuestas</strong></p>
-                    </div>
-                </a>
+            <div class="parameters-bar-btn">
+                <p>Idioma</p>
+            </div>
 
-                <a href="#">
-                    <div class="dfrom twobar-item">
-                        <label for="fecha">Desde:  </label>
-                        <input type="date" name="fecha" id="fecha">
-                    </div>
-                </a>
+            <div class="parameters-bar-btn">
+                <p>Fechas propuestas</p>
+            </div>
 
-                <a href="#">
-                    <div class="dto twobar-item">
-                        <label for="fecha">Hasta:  </label>
-                        <input type="date" name="fecha" id="fecha">
-                    </div>
-                </a>
+            <div class="parameters-bar-btn">
+                <label for="desde">Desde: 
+                    <select name="desde" class="parameters-bar-select">
+                        <option value="27Marzo">27 de Marzo</option>
+                        <option value="28Marzo">28 de Marzo</option>
+                        <option value="29Marzo">29 de Marzo</option>
+                        <option value="30Marzo">30 de Marzo</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="parameters-bar-btn">
+                <label for="desde">Hasta:
+                    <select name="desde" class="parameters-bar-select">
+                        <option value="1Abril">1 de Abril</option>
+                        <option value="2Abril">2 de Abril</option>
+                        <option value="3Abril">3 de Abril</option>
+                        <option value="4Abril">4 de Abril</option>
+                    </select>
+                </label>
             </div>
         </nav>
     </section>
-    <section>
-        <article class="guide1">
-            <div class="migueltoro">
-                <div class="Image-miguel">
-                    <img src="../assets/guias/guiaMiguel.png" alt="guia Miguel"><br>
-                    <img src="../assets/guias/4star.png" alt="Stars">
+
+    <section class="page">
+        <div class="articles"> 
+            <article class="guide">
+                <div class="migueltoro">
+                    <div class="Image-miguel">
+                        <img src="../assets/guias/guiaMiguel.png" alt="guia Miguel"><br>
+                        <img src="../assets/guias/5stars.png" alt="Stars">
+                    </div>
+
+                    <div class="Information-miguel">
+                        <h1>Miguel Toro</h1>
+                        <h3>Guía profesional de la ciudad de Medellín con enfasís en problemáticas y violencias culturales. 7 años de experiencia con públicos multiculturales.</h3>
+                    </div>
+
+                    <div class="video-contac-miguel">
+                        <img src="../assets/guias/video.png" alt="video Miguel">
+                        <a href="#">
+                            <div class="contact-btn-content">
+                                <p>Contáctame</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="Information-miguel">
-                    <h1>Miguel Toro</h1>
-                    <h3>Guía profesional de la ciudad de Medellín con enfasís en problemáticas y violencias culturales. 7 años de experiencia con públicos multiculturales.</h3>
+
+                <div class="Title-tours">
+                    <h2>Tours</h2>
                 </div>
-                <div class="video-contac-miguel">
-                    <img src="../assets/guias/video.png" alt="video Miguel">
-                    <a href="#">
-                        <div class="contact-btn-content">
-                            <p>Contáctame</p>
-                        </div>
-                    </a>
+
+                <div class="tours">
+                    <div class="tour1">
+                        <img src="../assets/guias/penol.png" alt="tour guatape">
+                        <p>Guatapé</p>
+                    </div>
+
+                    <div class="tour2">
+                        <img src="../assets/guias/comuna13.png" alt="tour comuna">
+                        <p>Comuna 13</p>
+                    </div>
+
+                    <div class="tour3">
+                        <img src="../assets/guias/city.png" alt="tour city">
+                        <p>City tour</p>
+                    </div>
                 </div>
-            </div>
-            <div class="Title-tours-miguel">
-                <h2>Tours</h2>
-            </div>
-            <div class="tours">
-                <div class="tour1">
-                    <img src="../assets/guias/penol.png" alt="tour guatape">
-                    <p>Guatapé</p>
+                <hr>
+            </article>
+
+            <article class="guide">
+                <div class="angela">
+                    <div class="Image-angela">
+                        <img src="../assets/guias/guiaAngela.png" alt="guia Angela"><br>
+                        <img src="../assets/guias/4stars.png" alt="Stars Angela">
+                    </div>
+
+                    <div class="Information-angela">
+                        <h1>Angela Patiño</h1>
+                        <h3>Vive conmigo una experiencia turística inclusiva que celebra la diversidad de Medellín. Explora los barrios y comunidades locales que reflejan la multiculturalidad de la ciudad. Te llevaré a lugares donde diferentes culturas convergen.</h3>
+                    </div>
+
+                    <div class="video-contac-angela">
+                        <img src="../assets/guias/video.png" alt="video Angela">
+                        <a href="#">
+                            <div class="contact-btn-content">
+                                <p>Contáctame</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="tour2">
-                    <img src="../assets/guias/comuna13.png" alt="tour comuna">
-                    <p>Comuna 13</p>
+
+                <div class="Title-tours">
+                    <h2>Tours</h2>
                 </div>
-                <div class="tour3">
-                    <img src="../assets/guias/city.png" alt="tour city">
-                    <p>City tour</p>
+
+                <div class="tours">
+                    <div class="tour1">
+                        <img src="../assets/guias/comuna13letras.png" alt="tour comuna">
+                        <p>Comuna 13</p>
+                    </div>
+
+                    <div class="tour2">
+                        <img src="../assets/guias/med.png" alt="tour botero">
+                        <p>Parque Botero</p>
+                    </div>
+
+                    <div class="tour3">
+                        <img src="../assets/guias/explora.png" alt="tour explora">
+                        <p>Parque Explora</p>
+                    </div>
+
+                    <div class="tour4">
+                        <img src="../assets/guias/bus.png" alt="tour alpujarra">
+                        <p>Alpujarra</p>
+                    </div>
                 </div>
-            </div>
-            <hr>
-        </article>
-        <aside>
+                <hr>
+            </article>
+
+            <article class="guide">
+                <div class="juan">
+                    <div class="Image-juan">
+                        <img src="../assets/guias/guiaJuan.png" alt="guia juan"><br>
+                        <img src="../assets/guias/4stars.png" alt="Stars juan">
+                    </div>
+
+                    <div class="Information-juan">
+                        <h1>Juan López</h1>
+                        <h3>Soy un guía con experiencia en la resiliencia de Medellín. Descubre proyectos comunitarios, arte urbano y programas que han contribuido a la superación de la violencia cultural en la ciudad. </h3>
+                    </div>
+
+                    <div class="video-contac-juan">
+                        <img src="../assets/guias/video.png" alt="Vídeo Juan">
+                        <a href="#">
+                            <div class="contact-btn-content">
+                                <p>Contáctame</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="Title-tours">
+                    <h2>Tours</h2>
+                </div>
+
+                <div class="tours">
+                    <div class="tour1">
+                        <img src="../assets/guias/comuna13letras.png" alt="tour comuna">
+                        <p>Comuna 13</p>
+                    </div>
+
+                    <div class="tour2">
+                        <img src="../assets/guias/med.png" alt="tour botero">
+                        <p>Parque Botero</p>
+                    </div>
+
+                    <div class="tour3">
+                        <img src="../assets/guias/explora.png" alt="tour explora">
+                        <p>Parque Explora</p>
+                    </div>
+
+                    <div class="tour4">
+                        <img src="../assets/guias/bus.png" alt="tour alpujarra">
+                        <p>Alpujarra</p>
+                    </div>
+                </div>
+                <hr>
+            </article>
+        </div> 
+        
+        <aside class="reviews">
             <div class="title-aside">
                 <h2>Reviews</h2><hr>
             </div>
+
             <div class="first-guide">
                 <h3>Catalina Uribe</h3>
                 <p>La Cata de Cervezas es espectacular, un gran evento empresarial. Pasamos un rato muy agradable entre todos y los expertos cerveceros son muy buenos haciendo las explicaciones y dictando la cata. ¡Recomendadidísimo!</p>
-                <img src="../assets/guias/calif1.png" alt="Stars 1"><hr>
+                <img src="../assets/guias/4starswhite.png" alt="Stars 4"><hr>
             </div>
+
+            <div class="second-guide">
+                <h3>Verónica Salazar</h3>
+                <p>Hoy realizamos con Miguel Angel Toro el tour de la comuna 13, sencillamente  espectacular. El servicio  y el guía excelentes. Recomiendo  este servicio con ustedes ampliamente.
+                    ¡Simplemente espectacular!</p>
+                <img src="../assets/guias/5starswhite.png" alt="Stars 5"><hr>
+            </div>
+
+            <div class="third-guide">
+                <h3>Daniel Quintero</h3>
+                <p>Estuvimos en un super Tour:  MetroCable, Museo de la Menoria Donde Dario, Y La Comuna 13. Maravilloso día Super bien organizado. Gracias.</p>
+                <img src="../assets/guias/5starswhite.png" alt="Stars 5"><hr>
+            </div>
+
+            <div class="four-guide">
+                <h3>Sebastian Suárez</h3>
+                <p>Que experiencia tan increíble!! Tuve la experiencia de tener una cata virtual y La calidez de quienes dan la cata , la delicia y diversidad de la cerveza valen la pena!
+                    Muy recomendado el guía Miguel Toro.</p>
+                <img src="../assets/guias/4starswhite.png" alt="Stars 4"><hr>
+            </div>
+
+            <button>Ver más</button>
         </aside>
     </section>
 </body>
