@@ -73,11 +73,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 200px; /*creo espacio entre dos objetos centrados*/
+    gap: 200px;
     margin-top: 20px;
-    background-image: url(../assets/aboutbg2.jpg);
+    background-image: url(../assets/Lugares/aboutMedellin.jpg);
     color: #fff;
     font-weight: bold;
+    background-size: cover;
 }
 
 .about-text {
@@ -139,6 +140,14 @@ a {
     background-color: #0059ff;
 }
 
+/* ------------------- MAIN PLACES  ------------------- */
+
+.main-places {
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+}
+
 /* ------------------- PLACES SECTION ------------------- */
 
 .place-section {
@@ -170,4 +179,27 @@ a {
 .place-img img {
     border-radius: 22px;
     box-shadow: 0px 0px 20px #000;
+}
+
+/* ------------------- ASIDE ------------------- */
+
+.aside-guides {
+    margin-top: 50px;
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside-guides-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.aside-guides-a {
+    display: flex;
+    justify-content: space-around;
 }
