@@ -203,3 +203,11 @@ a {
     display: flex;
     justify-content: space-around;
 }
+
+.aside-title{
+    background-color: #0094FF;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+
+}
