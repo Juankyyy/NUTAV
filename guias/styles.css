@@ -148,36 +148,14 @@ a {
 
 /*Section with articles and aside*/
 
-.migueltoro {
+.guide {
     display: flex;
     justify-content: space-between;
 }
 
-.Image-miguel,
-.Information-miguel,
-.video-contact-miguel {
-    width: 30%; 
-}
-
-.angela {
-    display: flex;
-    justify-content: space-between;
-}
-
-.Image-angela,
-.Information-angela,
-.video-contact-angela {
-    width: 30%; 
-}
-
-.juan{
-    display: flex;
-    justify-content: space-between;
-}
-
-.Image-juan,
-.Information-juan,
-.video-contact-juan {
+.Image-guide,
+.Information-guide,
+.video-contact-guide {
     width: 30%; 
 }
 
@@ -194,6 +172,9 @@ a {
     font-weight: bold;
     text-align: center;
     background-color: #0094FF;
+    margin-left: auto;
+    margin-right: auto;
+    width:min-content
 }
 
 .page {
