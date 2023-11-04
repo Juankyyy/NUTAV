@@ -96,6 +96,8 @@ a {
 
 .about-img {
     margin-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* ------------------- PARAMETERS BAR ------------------- */
@@ -194,4 +196,68 @@ a {
     width: 30%; /* Ancho del aside */
     background-color: #EFEFEF;
     padding: 20px;
+}
+
+/* ------------------- Footer ------------------- */
+
+.footer {
+    margin-top: 100px;
+    font-weight: bold;
+    height: 200px;
+    background-color: #0094FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.footer-text-social img {
+    margin-right: 15px;
+    padding: 5px;
+    transition: 0.3s all;
+}
+
+.footer-text-social img:hover {
+    background-color: #0500FF;
+    border-radius: 10px;
+}
+
+.footer-text p {
+    width: 350px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links-info-p {
+    transition: 0.5s text-decoration;
+}
+
+.footer-links-info-p:hover {
+    text-decoration: underline 3px solid #0500FF;
+}
+
+.footer-links a {
+    text-align: right;
+    color: #fff;
 }
