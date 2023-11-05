@@ -183,6 +183,10 @@ a {
     width: 200px;
 }
 
+.guides-img-profile {
+    border-radius: 50%;
+}
+
 .guides-info {
     display: flex;
     align-items: center;
@@ -201,8 +205,9 @@ a {
     gap: 20px;
 }
 
-.guides-video-mp4 img {
+.guides-video-mp4 iframe {
     width: 350px;
+    height: 200px;
     border: 1px solid #000;
 }
 
