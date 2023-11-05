@@ -132,7 +132,7 @@ a {
     font-size: 15px;
     background-color: #0094FF;
     color: #fff;
-    border: 0px;
+    border: 1px solid #fff;
     cursor: pointer;
     border-radius: 5px;
     transition: 0.5s background-color;
@@ -142,25 +142,22 @@ a {
     background-color: #0059ff;
 }
 
-/* ------------------- MAIN PLACES  ------------------- */
-
-.main-places {
-    display: flex;
-    justify-content: space-around;
-    width: 95vw;
-}
-
 /* ------------------- PLACES SECTION ------------------- */
 
-.place-section {
+.main-places {
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
+
+/* .place-section {
+
+} */
 
 .place-content {
     display: flex;
     align-items: center;
     gap: 100px;
-    margin-left: 70px;
     margin-bottom: 100px;
 }
 
@@ -187,12 +184,10 @@ a {
 /* ------------------- ASIDE ------------------- */
 
 .aside-guides {
-    margin-top: 50px;
+    width: 25vw;
     background-color: #D9D9D9;
     padding: 20px;
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
 }
 
 .aside-guides-card {
@@ -204,7 +199,6 @@ a {
 
 .aside-guides-contact {
     display: flex;
-    justify-content: space-around;
 }
 
 .aside-title{

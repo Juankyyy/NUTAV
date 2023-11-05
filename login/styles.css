@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* ------------------- HEADER ------------------- */
+
+.header-content {
+    display: flex;
+    position: absolute;
+}
+
+.navbar {
+    display: flex;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.navbar-right {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-language img {
+    border: 1px solid #000;
+}
+
+/* ------------------- MAIN ------------------- */
+
+.main-login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-inputs input {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.main-btnSubmit {
+    display: flex;
+    background-color: #0094FF;
+    padding: 7px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+/* ------------------- LOGO ------------------- */
+
+.logo-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text h2 {
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+/* ------------------- LOGIN ------------------- */
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.login-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-content {
+    background-color: #0094FF;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.login-content img {
+    width: 26px;
+}
+
+.login-content-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ------------------- REGISTER ------------------- */
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-content {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.register-inputs {
+    gap: 15px;
+}
+
+.register-inputs input {
+    width: 100%;
+}
+
+.register-inputs-names {
+    display: flex;
+    gap: 20px;
+}
+
+.register-select-btn {
+    border-radius: 10px;
+    margin-bottom: -5px;
+}
+
+.register-select {
+    font-weight: bold;
+    background-color: #D9D9D9;
+    padding: 2px 5px;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: 0.5s background-color;
+}
+
+.register-list {
+    font-weight: bold;
+    color: #00000086;
+}
+
+.register-upload {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: 0px 3px #838383;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.register-upload-img {
+    margin-bottom: 10px;
+}
+
+.register-upload-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.register-upload-btn {
+    color: #fff;
+    background-color: #0094FF;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
