@@ -68,6 +68,7 @@ a {
     border: 1px solid #000;
 }
 
+/* ------------------- ABOUT ------------------- */
 
 .about {
     display: flex;
@@ -86,12 +87,12 @@ a {
     font-weight: bold;
     border-radius: 10px;
     background-color: #0000008f;
-    width: 35vw;
+    width: 37vw;
     padding: 5px;
 }
 
 .about-text strong {
-    color: #10b880;
+    color: #ffff00;
 }
 
 .about-img {
@@ -138,7 +139,7 @@ a {
     font-size: 15px;
     background-color: #0094FF;
     color: #fff;
-    border: 0px;
+    border: 1px solid #fff;
     cursor: pointer;
     border-radius: 5px;
     transition: 0.5s background-color;
@@ -148,55 +149,136 @@ a {
     background-color: #0059ff;
 }
 
-/*Section with articles and aside*/
+/* ------------------- GUIDES ------------------- */
 
-.guide {
+.main-guides {
     display: flex;
     justify-content: space-between;
+    width: 95vw;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.Image-guide,
-.Information-guide,
-.video-contact-guide {
-    width: 30%; 
-}
-
-.tours {
+.guides-section {
     display: flex;
-    justify-content: space-between;
-    width: 30%; 
+    flex-direction: column;
 }
 
-.contact-btn-content{
+.guides-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.guides-content-below {
+    margin-top: 30px;
+}
+
+.guides-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.guides-img {
+    width: 200px;
+}
+
+.guides-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.guides-info-p {
+    width: 20vw;
+}
+
+.guides-video {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.guides-video-mp4 img {
+    width: 350px;
+    border: 1px solid #000;
+}
+
+.guides-video-btn {
+    display: flex;
+    justify-content: center;
     color: #fff;
-    padding:  10px 20px;
+    padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
-    text-align: center;
     background-color: #0094FF;
+    width: min-content;
     margin-left: auto;
     margin-right: auto;
-    width:min-content
 }
 
-.page {
+.guides-tours {
+    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.articles {
-    flex-grow: 1;
-    width: 70%; /* Ancho de los artículos */
-    background-color: #fff;
-    padding: 20px;
+.guides-tours-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
 
-.reviews {
-    width: 30%; /* Ancho del aside */
-    background-color: #EFEFEF;
-    padding: 20px;
+.guides-tours-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
 }
+
+.guides-tours-content-item img {
+    width: 70px;
+}
+
+/* ------------------- ASIDE ------------------- */
+
+.aside-reviews {
+    width: 25vw;
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.aside-reviews-card {
+    margin-top: 10px;
+}
+
+.aside-reviews-title {
+    background-color: #0094FF;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.reviews-guides-name {
+    margin-bottom: 10px;
+}
+
+.reviews-guides-stars {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.reviews-guides-stars img {
+    width: 150px;
+}
+
 
 /* ------------------- Footer ------------------- */
 

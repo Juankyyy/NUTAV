@@ -197,15 +197,29 @@ a {
     margin-top: 20px;
 }
 
-.aside-guides-contact {
-    display: flex;
-}
-
-.aside-title{
+.aside-title {
     background-color: #0094FF;
     padding: 10px;
     color: #fff;
     border-radius: 10px;
+    text-align: center;
+}
+
+.aside-guides-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.aside-guides-contact-item {
+    padding: 2px 7px;
+    border-radius: 5px;
+    transition: 0.3s all;
+}
+
+.aside-guides-contact-item:hover {
+    color: #fff;
+    background-color: #0094FF;
 }
 
 /* ------------------- Footer ------------------- */
