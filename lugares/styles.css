@@ -205,6 +205,10 @@ a {
     text-align: center;
 }
 
+.aside-title a {
+    color: #fff;
+}
+
 .aside-guides-contact {
     display: flex;
     align-items: center;
@@ -274,7 +278,8 @@ a {
 }
 
 .footer-links-info-p {
-    transition: 0.5s text-decoration;
+    text-decoration: underline 3px solid #0094FF;
+    transition: 0.3s text-decoration;
 }
 
 .footer-links-info-p:hover {

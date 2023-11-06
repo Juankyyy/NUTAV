@@ -256,10 +256,16 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: min-content;
+}
+
+.footer-links-info-SantaFe {
+    width: max-content;
 }
 
 .footer-links-info-p {
-    transition: 0.5s text-decoration;
+    text-decoration: underline 3px solid #0094FF;
+    transition: 0.3s text-decoration;
 }
 
 .footer-links-info-p:hover {
@@ -269,4 +275,132 @@ a {
 .footer-links a {
     text-align: right;
     color: #fff;
+}
+
+/* ------------------- Responsive ------------------- */
+
+@media (max-width: 1030px) {
+    .tours-title {
+        font-size: 20px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .tours-imgs {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .tours-img {
+        width: 220px;
+        height: 300px;
+    }
+
+    .locations-text-text {
+        font-size: 20px;
+    }
+
+    .locations-text-title {
+        width: min-content;
+        text-align: center;
+    }
+
+    .about-text {
+        font-size: 20px;
+    }
+
+    .about-logo img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 800px) {
+    .locations-text-text {
+        font-size: 17px;
+    }
+
+    .locations-btn {
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .footer-links-info-SantaFe {
+        width: min-content;
+    }
+
+    .footer-text {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 675px) {
+    .navbar p {
+        font-size: 13px;
+    }
+
+    .navbar-item {
+        margin-right: 5px;
+    }
+
+    .about-text {
+        font-size: 15px;
+    }
+
+    .navbar-item p {
+        text-align: center;
+    }
+
+    .about-logo {
+        margin-right: 0px;
+    }
+
+    .about-logo img {
+        height: 350px;
+    }
+
+    .locations {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .locations-text {
+        gap: 20px;
+    }
+
+    .locations-text-title {
+        width: auto;
+    }
+
+    .locations-btn {
+        width: auto;
+        gap: 30px;
+    }
+
+    .footer {
+        font-size: 13px;
+    }
+
+    @media (max-width: 540px) {
+        .footer {
+            justify-content: center;
+            gap: 5px;
+            font-size: 12px;
+        }
+
+        .about {
+            flex-direction: column;
+        }
+
+        .about-logo img {
+            height: 250px;
+            background-color: #0000008f;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .about-text {
+            text-align: center;
+            width: 320px;
+        }
+    }
 }

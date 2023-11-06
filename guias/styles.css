@@ -337,7 +337,8 @@ a {
 }
 
 .footer-links-info-p {
-    transition: 0.5s text-decoration;
+    text-decoration: underline 3px solid #0094FF;
+    transition: 0.3s text-decoration;
 }
 
 .footer-links-info-p:hover {
@@ -348,5 +349,3 @@ a {
     text-align: right;
     color: #fff;
 }
-
-/* ------------------- Responsive ------------------- */
