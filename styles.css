@@ -342,6 +342,10 @@ a {
         margin-right: 5px;
     }
 
+    .about {
+        margin-bottom: 100px;
+    }
+
     .about-text {
         font-size: 15px;
     }
@@ -361,10 +365,14 @@ a {
     .locations {
         flex-direction: column;
         gap: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     .locations-text {
         gap: 20px;
+        width: 70vw;
     }
 
     .locations-text-title {
@@ -381,9 +389,46 @@ a {
     }
 
     @media (max-width: 540px) {
+
+        .navbar-right p {
+            font-size: 10px;
+        }
+
+        .navbar-btn-nutave {
+            padding: 5px 10px;
+        }
+
+        .tours-content {
+            margin-top: 20px;
+            padding-top: 20px !important;
+            padding: 10px;
+        }
+
+        .tours-title {
+            font-size: 15px;
+            width: 280px;
+        }
+
+        .tours-img {
+            height: 200px;
+            width: 160px;
+        }
+        
+        .tours-img-text {
+            font-size: 20px;
+        }
+
         .footer {
-            justify-content: center;
             gap: 5px;
+            font-size: 12px;
+        }
+
+        .footer-logo img {
+            width: 70px;
+        }
+
+        .footer-text p {
+            width: 200px;
             font-size: 12px;
         }
 
