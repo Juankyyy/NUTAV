@@ -181,7 +181,7 @@ a {
 
 .locations-btn-content {
     color: #fff;
-    padding:  10px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
     font-weight: bold;
     text-align: center;
@@ -279,6 +279,7 @@ a {
 /* ------------------- Responsive ------------------- */
 
 @media (max-width: 1030px) {
+    /* ------------------- Tours ------------------- */
     .tours-title {
         font-size: 20px;
         width: 400px;
@@ -295,6 +296,7 @@ a {
         height: 300px;
     }
 
+    /* ------------------- Locations ------------------- */
     .locations-text-text {
         font-size: 20px;
     }
@@ -304,6 +306,7 @@ a {
         text-align: center;
     }
 
+    /* ------------------- About ------------------- */
     .about-text {
         font-size: 20px;
     }
@@ -314,6 +317,7 @@ a {
 }
 
 @media (max-width: 800px) {
+    /* ------------------- Locations ------------------- */
     .locations-text-text {
         font-size: 17px;
     }
@@ -323,6 +327,7 @@ a {
         font-size: 13px;
     }
 
+    /* ------------------- Footer ------------------- */
     .footer-links-info-SantaFe {
         width: min-content;
     }
@@ -333,6 +338,7 @@ a {
 }
 
 @media (max-width: 675px) {
+    /* ------------------- HEADER ------------------- */
     .navbar p {
         font-size: 13px;
     }
@@ -341,6 +347,11 @@ a {
         margin-right: 5px;
     }
 
+    .navbar-item p {
+        text-align: center;
+    }
+
+    /* ------------------- About ------------------- */
     .about {
         margin-bottom: 100px;
     }
@@ -349,9 +360,6 @@ a {
         font-size: 15px;
     }
 
-    .navbar-item p {
-        text-align: center;
-    }
 
     .about-logo {
         margin-right: 0px;
@@ -361,6 +369,7 @@ a {
         height: 350px;
     }
 
+    /* ------------------- Locations ------------------- */
     .locations {
         flex-direction: column;
         gap: 30px;
@@ -383,68 +392,72 @@ a {
         gap: 30px;
     }
 
+    /* ------------------- Footer ------------------- */
     .footer {
         font-size: 13px;
     }
+}
 
-    @media (max-width: 540px) {
+@media (max-width: 540px) {
+    /* ------------------- HEADER ------------------- */
+    .navbar-right p {
+        font-size: 10px;
+    }
 
-        .navbar-right p {
-            font-size: 10px;
-        }
+    .navbar-btn-nutave {
+        padding: 5px 10px;
+    }
 
-        .navbar-btn-nutave {
-            padding: 5px 10px;
-        }
+    /* ------------------- Tours ------------------- */
+    .tours-content {
+        margin-top: 20px;
+        padding-top: 20px !important;
+        padding: 10px;
+    }
 
-        .tours-content {
-            margin-top: 20px;
-            padding-top: 20px !important;
-            padding: 10px;
-        }
+    .tours-title {
+        font-size: 15px;
+        width: 280px;
+    }
 
-        .tours-title {
-            font-size: 15px;
-            width: 280px;
-        }
+    .tours-img {
+        height: 200px;
+        width: 160px;
+    }
 
-        .tours-img {
-            height: 200px;
-            width: 160px;
-        }
-        
-        .tours-img-text {
-            font-size: 20px;
-        }
+    .tours-img-text {
+        font-size: 20px;
+    }
 
-        .footer {
-            gap: 5px;
-            font-size: 12px;
-        }
+    /* ------------------- About ------------------- */
+    .about {
+        flex-direction: column;
+    }
 
-        .footer-logo img {
-            width: 70px;
-        }
+    .about-logo img {
+        height: 250px;
+        background-color: #0000008f;
+        padding: 5px;
+        border-radius: 10px;
+    }
 
-        .footer-text p {
-            width: 200px;
-            font-size: 12px;
-        }
+    .about-text {
+        text-align: center;
+        width: 320px;
+    }
 
-        .about {
-            flex-direction: column;
-        }
+    /* ------------------- Footer ------------------- */
+    .footer {
+        gap: 5px;
+        font-size: 12px;
+    }
 
-        .about-logo img {
-            height: 250px;
-            background-color: #0000008f;
-            padding: 5px;
-            border-radius: 10px;
-        }
+    .footer-logo img {
+        width: 70px;
+    }
 
-        .about-text {
-            text-align: center;
-            width: 320px;
-        }
+    .footer-text p {
+        width: 200px;
+        font-size: 12px;
     }
 }

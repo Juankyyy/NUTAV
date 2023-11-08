@@ -286,3 +286,120 @@ a {
     text-align: right;
     color: #fff;
 }
+
+/* ------------------- Responsive ------------------- */
+
+@media (max-width: 800px) {
+    /* ------------------- About ------------------- */
+    .about-text {
+        font-size: 20px;
+    }
+
+    .about-logo img {
+        height: 400px;
+    }
+
+    /* ------------------- Footer ------------------- */
+    .footer-links-info-SantaFe {
+        width: min-content;
+    }
+
+    .footer-text {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 675px) {
+    /* ------------------- HEADER ------------------- */
+    .navbar p {
+        font-size: 13px;
+    }
+
+    .navbar-item {
+        margin-right: 5px;
+    }
+
+    .navbar-item p {
+        text-align: center;
+    }
+
+    /* ------------------- About ------------------- */
+    .about {
+        margin-bottom: 100px;
+    }
+
+    .about-text {
+        font-size: 15px;
+    }
+
+
+    .about-logo {
+        margin-right: 0px;
+    }
+
+    .about-logo img {
+        height: 350px;
+    }
+
+    /* ------------------- Footer ------------------- */
+    .footer {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* ------------------- HEADER ------------------- */
+    .navbar-right p {
+        font-size: 10px;
+    }
+
+    .navbar-btn-nutave {
+        padding: 5px 10px;
+    }
+
+    /* ------------------- About ------------------- */
+    .about {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 15px;
+    }
+
+    .about-img img {
+        height: 250px;
+        background-color: #0000008f;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .about-text {
+        text-align: center;
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    /* ------------------- Parameters ------------------- */
+    .parameters-bar {
+        justify-content: space-around;
+    }
+
+    .parameters-bar-btn {
+        width: min-content;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    /* ------------------- Footer ------------------- */
+    .footer {
+        gap: 5px;
+        font-size: 12px;
+    }
+
+    .footer-logo img {
+        width: 70px;
+    }
+
+    .footer-text p {
+        width: 200px;
+        font-size: 12px;
+    }
+}
